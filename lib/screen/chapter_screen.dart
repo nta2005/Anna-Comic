@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:anna_comic/state/state_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -26,7 +24,11 @@ class ChapterScreen extends StatelessWidget {
                     itemCount: comic.chapters.length,
                     itemBuilder: (context, index) {
                       return GestureDetector(
-                          onTap: () {},
+                          onTap: () {
+                            context.read(chapterSelected).state =
+                                comic.chapters[index];
+                            Navigator.pushNamed(context, '/read');
+                          },
                           child: Column(
                             children: [
                               ListTile(

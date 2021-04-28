@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'dart:convert';
 import 'package:anna_comic/screen/chapter_screen.dart';
+import 'package:anna_comic/screen/read_screen.dart';
 import 'package:anna_comic/state/state_manager.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -41,7 +42,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      routes: {'/chapters': (context) => ChapterScreen()},
+      routes: {
+        '/chapters': (context) => ChapterScreen(),
+        '/read': (context) => ReadScreen()
+      },
       theme: ThemeData(
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity),
