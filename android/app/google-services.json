@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "215652368323",
+    "firebase_url": "https://anna-comic-default-rtdb.firebaseio.com",
     "project_id": "anna-comic",
     "storage_bucket": "anna-comic.appspot.com"
   },
