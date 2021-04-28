@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "215652368323",
+    "project_id": "anna-comic",
+    "storage_bucket": "anna-comic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215652368323:android:01f4e50eafffaf32e58776",
+        "android_client_info": {
+          "package_name": "com.nta.anna_comic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215652368323-9gsmfvp07psrniauu9f4maarqc5n19fh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT3k2LkauPaUIQtEArBcwWhLyIBknjm0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215652368323-9gsmfvp07psrniauu9f4maarqc5n19fh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
