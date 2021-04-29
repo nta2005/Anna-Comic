@@ -33,6 +33,7 @@ dependencies:
   firebase_core: any
   carousel_slider: any
   flutter_riverpod: any
+  flutter_typeahead: any
 
 dev_dependencies:
   flutter_test:
